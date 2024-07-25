@@ -1,0 +1,29 @@
+<a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30"
+  href="{{ .RelPermalink }}">
+  <img src="{{ .Params.imagenUrl }}" alt="{{ .Title }}" />
+
+
+  <div class="card-body">
+    <h2 class="card-title">{{ .Title }}</h2>
+
+    <p class="date text-base-content/60">
+      {{ .Params.categoria}}
+    </p>
+
+    {{ .Params.nombre }}
+
+    <!-- TODO: Hacer un partial -->
+    <div class="card-actions justify-between items-center mt-4">
+      {{ if .Params.cantidad | eq 0 }}
+      <span class="badge badge-error" style="color: red;">Agotado</span>
+      {{ else }}
+      {{ .Params.cantidad }} disponibles
+      {{ end }}
+
+      <div class="inline-flex items-center">
+        <ion-icon name="cash-outline" class="mr-1"></ion-icon>
+        <span> {{ .Params.precio }}</span>
+      </div>
+    </div>
+  </div>
+</a>

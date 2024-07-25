@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Productos on My New Hugo Site</title>
+    <link>http://localhost:1313/productos/</link>
+    <description>Recent content in Productos on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 11:07:38 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Wed, 24 Jul 2024 11:07:38 -0600</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
-    </item>
+    <atom:link href="http://localhost:1313/productos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
       <link>http://localhost:1313/productos/alexa-echo-dot/</link>
@@ -77,13 +69,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/productos/roku-express/</guid>
       <description>El Roku Express es un dispositivo de streaming asequible y fácil de usar que transforma cualquier televisor en una Smart TV. Con su diseño compacto, se conecta directamente al puerto HDMI de tu televisor, ofreciéndote acceso a una amplia gama de servicios de streaming como Netflix, Hulu, Disney+, YouTube, y muchos más. Su interfaz intuitiva y sencilla te permite navegar y encontrar rápidamente tus programas, películas y aplicaciones favoritas. Incluye un control remoto fácil de usar y también se puede controlar a través de la aplicación móvil de Roku, permitiéndote buscar contenido por voz y controlar la reproducción desde tu teléfono.</description>
-    </item>
-    <item>
-      <title>Hello, World!</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>Hello World! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non lorem diam. Quisque vulputate nibh sodales eros pretium tincidunt. Aenean porttitor efficitur convallis. Nulla sagittis finibus convallis. Phasellus in fermentum quam, eu egestas tortor. Maecenas ac mollis leo. Integer maximus eu nisl vel sagittis.&#xA;Suspendisse facilisis, mi ac scelerisque interdum, ligula ex imperdiet felis, a posuere eros justo nec sem. Nullam laoreet accumsan metus, sit amet tincidunt orci egestas nec.</description>
     </item>
   </channel>
 </rss>
