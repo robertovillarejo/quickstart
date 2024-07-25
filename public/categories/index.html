@@ -81,9 +81,30 @@
 
 
 
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="Archives">
+    <ion-icon name="archive"></ion-icon>
+    Archives
+  </a>
+</li>
 
 
 
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="All Categories">
+    <ion-icon name="grid"></ion-icon>
+    All Categories
+  </a>
+</li>
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="All Tags">
+    <ion-icon name="pricetags"></ion-icon>
+    All Tags
+  </a>
+</li>
 
 
 
@@ -96,9 +117,21 @@
       
 
       
-
+      <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="Archives">
+        <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+      </a>
       
 
+      
+      <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="All Categories">
+        <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+      </a>
+      
+
+      
+      <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="All Tags">
+        <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+      </a>
       
 
       
@@ -116,15 +149,108 @@
 <div class="flex flex-col md:flex-row gap-4 mt-8 lg:mt-12 px-4">
   <div class="md:basis-[200px] lg:basis-[300px] prose dark:prose-invert">
     <h1 class="text-2xl">All Categories</h1>
-    <p class="text-sm">0 categories
+    <p class="text-sm">1 category
     </p>
     <div class="flex flex-wrap gap-4 mt-6">
+      
+      <a href="/categories/category1/" class="badge h-6 no-underline hover:badge-primary">
+        Category1
+      </a>
       
     </div>
   </div>
   <div class="divider divider-vertical md:divider-horizontal"></div>
   <div class="flex-1 space-y-4">
     
+    
+    <a class="card image-full card-compact" href="/posts/my-first-post/">
+  <figure class="h-[200px]">
+  
+    
+    <img class="w-full" src="/img/cover.jpg" alt="My First Post" />
+    
+  
+  </figure>
+
+  <div class="card-body">
+    <h2 class="card-title">My First Post</h2>
+
+    <p class="date">
+    Wednesday, Jul 24, 2024
+    </p>
+
+    <p>Cut out summary from your post content here.</p>
+
+    <div class="card-actions justify-between items-center mt-4">
+      <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span>
+  
+    
+      Author Name
+    
+  
+  </span>
+</div>
+
+
+      <div class="inline-flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>1 minute read</span>
+      </div>
+    </div>
+  </div>
+</a>
+
+    
+    <a class="card image-full card-compact" href="/posts/hello-world/">
+  <figure class="h-[200px]">
+  
+    
+    
+    <picture class="w-full">
+      <source srcset="/images/default1_hu3d03a01dcc18bc5be0e67db3d8d209a6_69563_640x512_resize_q75_h2_box.webp" type="image/webp" />
+      <img class="w-full" src="/images/default1.jpg" alt="/images/default1.jpg" />
+    </picture>
+    
+  
+  </figure>
+
+  <div class="card-body">
+    <h2 class="card-title">Hello, World!</h2>
+
+    <p class="date">
+    Monday, Jan 1, 0001
+    </p>
+
+    Hello World! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non lorem diam. Quisque vulputate nibh sodales eros pretium tincidunt. Aenean porttitor efficitur convallis. Nulla sagittis finibus convallis. Phasellus in fermentum quam, eu egestas tortor. Maecenas ac mollis leo. Integer maximus eu nisl vel sagittis.
+Suspendisse facilisis, mi ac scelerisque interdum, ligula ex imperdiet felis, a posuere eros justo nec sem. Nullam laoreet accumsan metus, sit amet tincidunt orci egestas nec.
+
+    <div class="card-actions justify-between items-center mt-4">
+      <div class="flex items-center">
+  
+  <span>@</span>
+  
+
+  <span>
+  
+    
+  
+  </span>
+</div>
+
+
+      <div class="inline-flex items-center">
+        <ion-icon name="time" class="mr-1"></ion-icon>
+        <span>1 minute read</span>
+      </div>
+    </div>
+  </div>
+</a>
+
     
 
     
