@@ -1,7 +1,7 @@
 ---
 nombre: Control inalámbrico para Nintendo Switch
 precio: 400
-imagenUrl: /uploads/control-nintendo.jpeg
+imagenUrl: /imagenes/control-nintendo.jpeg
 categoria: juegos
 cantidad: 3
 ---

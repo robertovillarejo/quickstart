@@ -1,7 +1,7 @@
 ---
 nombre: Bocina JBL
 precio: 1300
-imagenUrl: /uploads/bocina.jpeg
+imagenUrl: /imagenes/bocina.jpeg
 categoria: audio
 cantidad: 0
 ---
