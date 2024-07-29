@@ -9,7 +9,7 @@ const branch = process.env.GITHUB_BRANCH ||
     process.env.HEAD ||
     "main";
 export default defineConfig({
-    // contentApiUrlOverride: "/api/tina/gql",
+    contentApiUrlOverride: "http://localhost:4001/graphql",
     authProvider: isLocal ? new LocalAuthProvider() : new 
     // Your hosting provider likely exposes this as an environment variable
     UsernamePasswordAuthJSProvider(),

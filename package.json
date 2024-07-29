@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "tinacms dev -c \"hugo server -D\"",
     "build": "tinacms build && hugo",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "hugo server --environment production & tinacms server:start"
   },
   "keywords": [],
   "author": "",
